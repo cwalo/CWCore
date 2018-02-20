@@ -8,12 +8,12 @@
 
 import UIKit
 
-extension UIViewController {
-    @objc func popFromTop() {
+public extension UIViewController {
+    public func popFromTop() {
         navigationController?.pop(self, from: .top)
     }
     
-    func present(_ viewController: UIViewController, from direction: UINavigationDirection = .top) {
+    public func present(_ viewController: UIViewController, from direction: UINavigationDirection = .top) {
         let transition = CATransition()
         transition.duration = 0.5
         transition.timingFunction = CAMediaTimingFunction(name: kCAMediaTimingFunctionEaseInEaseOut)
@@ -23,7 +23,7 @@ extension UIViewController {
         present(viewController, animated: false, completion: nil)
     }
     
-    func dismiss(from direction: UINavigationDirection = .bottom, completion: (() -> Void)? ) {
+    public func dismiss(from direction: UINavigationDirection = .bottom, completion: (() -> Void)? ) {
         let transition = CATransition()
         transition.duration = 0.5
         transition.timingFunction = CAMediaTimingFunction(name: kCAMediaTimingFunctionEaseInEaseOut)

@@ -8,8 +8,8 @@
 
 import UIKit
 
-extension NSMutableAttributedString {
-    func addLetterSpacing(_ spacing: CGFloat = 1.0) -> NSAttributedString {
+public extension NSMutableAttributedString {
+    public func addLetterSpacing(_ spacing: CGFloat = 1.0) -> NSAttributedString {
         addAttribute(NSAttributedStringKey.kern, value: spacing, range: NSRange(location: 0, length: self.length - 1)) // no space after last character
         return self
     }

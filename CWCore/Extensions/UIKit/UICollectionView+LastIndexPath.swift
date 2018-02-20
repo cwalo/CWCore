@@ -8,8 +8,8 @@
 
 import UIKit
 
-extension UICollectionView {
-    var indexPathForLastItem: IndexPath? {
+public extension UICollectionView {
+    public var indexPathForLastItem: IndexPath? {
         let lastSection = numberOfSections > 0 ? numberOfSections - 1 : 0
         guard lastSection > 0, numberOfItems(inSection: 0) > 0 else { return nil }
         return IndexPath(item: numberOfItems(inSection: 0) - 1, section: 0)

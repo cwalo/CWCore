@@ -8,9 +8,9 @@
 
 import UIKit
 
-extension UIImageView {
+public extension UIImageView {
     /** Asynchronously set the imageView with an image URL. Backed by shared instance of ImageCache by default */
-    func setWith(imageURL: URL, placeholder: UIImage? = nil, useCachedImage: Bool = true, animated: Bool = true) {
+    public func setWith(imageURL: URL, placeholder: UIImage? = nil, useCachedImage: Bool = true, animated: Bool = true) {
         
         func setWith(_ image: UIImage) {
             DispatchQueue.main.async {

@@ -8,8 +8,8 @@
 
 import UIKit
 
-extension UIColor {
-    func halfAlpha() -> UIColor {
+public extension UIColor {
+    public var halfAlpha: UIColor {
         return self.withAlphaComponent(0.5)
     }
 }

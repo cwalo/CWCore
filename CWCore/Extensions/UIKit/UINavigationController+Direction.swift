@@ -8,13 +8,13 @@
 
 import UIKit
 
-enum UINavigationDirection {
+public enum UINavigationDirection {
     case bottom
     case top
 }
 
-extension UINavigationController {
-    func push(_ viewController: UIViewController, from direction: UINavigationDirection) {
+public extension UINavigationController {
+    public func push(_ viewController: UIViewController, from direction: UINavigationDirection) {
         let transition = CATransition()
         transition.duration = 0.5
         transition.timingFunction = CAMediaTimingFunction(name: kCAMediaTimingFunctionEaseInEaseOut)
@@ -24,7 +24,7 @@ extension UINavigationController {
         pushViewController(viewController, animated: false)
     }
     
-    func pop(_ viewController: UIViewController, from direction: UINavigationDirection) {
+    public func pop(_ viewController: UIViewController, from direction: UINavigationDirection) {
         let transition = CATransition()
         transition.duration = 0.5
         transition.timingFunction = CAMediaTimingFunction(name: kCAMediaTimingFunctionEaseInEaseOut)
@@ -34,7 +34,7 @@ extension UINavigationController {
         popViewController(animated: false)
     }
     
-    func popTo(_ viewController: UIViewController, from direction: UINavigationDirection) {
+    public func popTo(_ viewController: UIViewController, from direction: UINavigationDirection) {
         let transition = CATransition()
         transition.duration = 0.5
         transition.timingFunction = CAMediaTimingFunction(name: kCAMediaTimingFunctionEaseInEaseOut)

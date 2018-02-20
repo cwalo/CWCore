@@ -8,8 +8,8 @@
 
 import UIKit
 
-extension UIFont {
-    class func font(ofSize: CGFloat, weight: Weight) -> UIFont {
+public extension UIFont {
+    public class func font(ofSize: CGFloat, weight: Weight) -> UIFont {
         var font: UIFont?
         
         if weight == UIFont.Weight.light {

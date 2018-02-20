@@ -8,8 +8,8 @@
 
 import UIKit
 
-extension UIView {
-    func fillSuperview() {
+public extension UIView {
+    public func fillSuperview() {
         guard let superview = self.superview else {
             return
         }
