@@ -14,7 +14,6 @@
 		04D79C3A203BC9E0002B2D2B /* UIView+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04D79C2E203BC9DF002B2D2B /* UIView+Extensions.swift */; };
 		04D79C3B203BC9E0002B2D2B /* UINavigationController+Direction.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04D79C2F203BC9DF002B2D2B /* UINavigationController+Direction.swift */; };
 		04D79C3C203BC9E0002B2D2B /* String+Localize.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04D79C30203BC9DF002B2D2B /* String+Localize.swift */; };
-		04D79C3D203BC9E0002B2D2B /* UIViewController+Keyboard.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04D79C31203BC9DF002B2D2B /* UIViewController+Keyboard.swift */; };
 		04D79C3E203BC9E0002B2D2B /* Collection+Random.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04D79C32203BC9DF002B2D2B /* Collection+Random.swift */; };
 		04D79C3F203BC9E0002B2D2B /* NSAttributedString+Kerning.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04D79C33203BC9DF002B2D2B /* NSAttributedString+Kerning.swift */; };
 		04D79C40203BC9E0002B2D2B /* UIColor+Alpha.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04D79C34203BC9DF002B2D2B /* UIColor+Alpha.swift */; };
@@ -48,7 +47,6 @@
 		04D79C2E203BC9DF002B2D2B /* UIView+Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIView+Extensions.swift"; sourceTree = "<group>"; };
 		04D79C2F203BC9DF002B2D2B /* UINavigationController+Direction.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UINavigationController+Direction.swift"; sourceTree = "<group>"; };
 		04D79C30203BC9DF002B2D2B /* String+Localize.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "String+Localize.swift"; sourceTree = "<group>"; };
-		04D79C31203BC9DF002B2D2B /* UIViewController+Keyboard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIViewController+Keyboard.swift"; sourceTree = "<group>"; };
 		04D79C32203BC9DF002B2D2B /* Collection+Random.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Collection+Random.swift"; sourceTree = "<group>"; };
 		04D79C33203BC9DF002B2D2B /* NSAttributedString+Kerning.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "NSAttributedString+Kerning.swift"; sourceTree = "<group>"; };
 		04D79C34203BC9DF002B2D2B /* UIColor+Alpha.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIColor+Alpha.swift"; sourceTree = "<group>"; };
@@ -103,9 +101,8 @@
 			children = (
 				04D79C16203BC950002B2D2B /* CWCore.h */,
 				04D79C17203BC950002B2D2B /* Info.plist */,
-				04D79C46203BCA61002B2D2B /* ImageCache.swift */,
-				04D79C48203BCA6F002B2D2B /* GenericCache.swift */,
 				04D79C4C203BCC45002B2D2B /* Styles.swift */,
+				04D79C50203BD00C002B2D2B /* Caches */,
 				04D79C45203BC9F2002B2D2B /* Extensions */,
 			);
 			path = CWCore;
@@ -139,7 +136,6 @@
 				04D79C2D203BC9DF002B2D2B /* UIImageView+URL.swift */,
 				04D79C2F203BC9DF002B2D2B /* UINavigationController+Direction.swift */,
 				04D79C2E203BC9DF002B2D2B /* UIView+Extensions.swift */,
-				04D79C31203BC9DF002B2D2B /* UIViewController+Keyboard.swift */,
 				04D79C35203BC9DF002B2D2B /* UIViewController+Navigation.swift */,
 			);
 			path = UIKit;
@@ -153,6 +149,15 @@
 				04D79C30203BC9DF002B2D2B /* String+Localize.swift */,
 			);
 			path = Foundation;
+			sourceTree = "<group>";
+		};
+		04D79C50203BD00C002B2D2B /* Caches */ = {
+			isa = PBXGroup;
+			children = (
+				04D79C46203BCA61002B2D2B /* ImageCache.swift */,
+				04D79C48203BCA6F002B2D2B /* GenericCache.swift */,
+			);
+			path = Caches;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -266,7 +271,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				04D79C49203BCA6F002B2D2B /* GenericCache.swift in Sources */,
-				04D79C3D203BC9E0002B2D2B /* UIViewController+Keyboard.swift in Sources */,
 				04D79C47203BCA61002B2D2B /* ImageCache.swift in Sources */,
 				04D79C3A203BC9E0002B2D2B /* UIView+Extensions.swift in Sources */,
 				04D79C44203BC9E0002B2D2B /* UIFont+Styles.swift in Sources */,

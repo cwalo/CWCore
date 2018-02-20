@@ -1,19 +1,19 @@
 //
-//  ImageCache.swift
+//  GenericCache.swift
 //  liner-notes
 //
-//  Created by Corey Walo on 6/29/17.
+//  Created by Corey Walo on 8/1/17.
 //  Copyright © 2017 Corey Walo. All rights reserved.
 //
 
-import UIKit
+import Foundation
 
-class ImageCache : NSCache<AnyObject, UIImage> {
-    static let shared = ImageCache()
+public class GenericCache : NSCache<AnyObject, AnyObject> {
+    public static let shared = GenericCache()
 }
 
-extension ImageCache {
-    subscript(key: String) -> UIImage? {
+public extension GenericCache {
+    public subscript(key: String) -> AnyObject? {
         get {
             return object(forKey: key as AnyObject)
         }
