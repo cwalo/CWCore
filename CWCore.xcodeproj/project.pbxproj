@@ -10,6 +10,20 @@
 		04D79C1D203BC950002B2D2B /* CWCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 04D79C13203BC950002B2D2B /* CWCore.framework */; };
 		04D79C22203BC950002B2D2B /* CWCoreTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04D79C21203BC950002B2D2B /* CWCoreTests.swift */; };
 		04D79C24203BC950002B2D2B /* CWCore.h in Headers */ = {isa = PBXBuildFile; fileRef = 04D79C16203BC950002B2D2B /* CWCore.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		04D79C39203BC9E0002B2D2B /* UIImageView+URL.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04D79C2D203BC9DF002B2D2B /* UIImageView+URL.swift */; };
+		04D79C3A203BC9E0002B2D2B /* UIView+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04D79C2E203BC9DF002B2D2B /* UIView+Extensions.swift */; };
+		04D79C3B203BC9E0002B2D2B /* UINavigationController+Direction.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04D79C2F203BC9DF002B2D2B /* UINavigationController+Direction.swift */; };
+		04D79C3C203BC9E0002B2D2B /* String+Localize.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04D79C30203BC9DF002B2D2B /* String+Localize.swift */; };
+		04D79C3D203BC9E0002B2D2B /* UIViewController+Keyboard.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04D79C31203BC9DF002B2D2B /* UIViewController+Keyboard.swift */; };
+		04D79C3E203BC9E0002B2D2B /* Collection+Random.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04D79C32203BC9DF002B2D2B /* Collection+Random.swift */; };
+		04D79C3F203BC9E0002B2D2B /* NSAttributedString+Kerning.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04D79C33203BC9DF002B2D2B /* NSAttributedString+Kerning.swift */; };
+		04D79C40203BC9E0002B2D2B /* UIColor+Alpha.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04D79C34203BC9DF002B2D2B /* UIColor+Alpha.swift */; };
+		04D79C41203BC9E0002B2D2B /* UIViewController+Navigation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04D79C35203BC9DF002B2D2B /* UIViewController+Navigation.swift */; };
+		04D79C42203BC9E0002B2D2B /* UICollectionView+LastIndexPath.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04D79C36203BC9DF002B2D2B /* UICollectionView+LastIndexPath.swift */; };
+		04D79C43203BC9E0002B2D2B /* UIColor+Grade.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04D79C37203BC9DF002B2D2B /* UIColor+Grade.swift */; };
+		04D79C44203BC9E0002B2D2B /* UIFont+Styles.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04D79C38203BC9DF002B2D2B /* UIFont+Styles.swift */; };
+		04D79C47203BCA61002B2D2B /* ImageCache.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04D79C46203BCA61002B2D2B /* ImageCache.swift */; };
+		04D79C49203BCA6F002B2D2B /* GenericCache.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04D79C48203BCA6F002B2D2B /* GenericCache.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -29,6 +43,20 @@
 		04D79C1C203BC950002B2D2B /* CWCoreTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CWCoreTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		04D79C21203BC950002B2D2B /* CWCoreTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CWCoreTests.swift; sourceTree = "<group>"; };
 		04D79C23203BC950002B2D2B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		04D79C2D203BC9DF002B2D2B /* UIImageView+URL.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIImageView+URL.swift"; sourceTree = "<group>"; };
+		04D79C2E203BC9DF002B2D2B /* UIView+Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIView+Extensions.swift"; sourceTree = "<group>"; };
+		04D79C2F203BC9DF002B2D2B /* UINavigationController+Direction.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UINavigationController+Direction.swift"; sourceTree = "<group>"; };
+		04D79C30203BC9DF002B2D2B /* String+Localize.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "String+Localize.swift"; sourceTree = "<group>"; };
+		04D79C31203BC9DF002B2D2B /* UIViewController+Keyboard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIViewController+Keyboard.swift"; sourceTree = "<group>"; };
+		04D79C32203BC9DF002B2D2B /* Collection+Random.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Collection+Random.swift"; sourceTree = "<group>"; };
+		04D79C33203BC9DF002B2D2B /* NSAttributedString+Kerning.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "NSAttributedString+Kerning.swift"; sourceTree = "<group>"; };
+		04D79C34203BC9DF002B2D2B /* UIColor+Alpha.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIColor+Alpha.swift"; sourceTree = "<group>"; };
+		04D79C35203BC9DF002B2D2B /* UIViewController+Navigation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIViewController+Navigation.swift"; sourceTree = "<group>"; };
+		04D79C36203BC9DF002B2D2B /* UICollectionView+LastIndexPath.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UICollectionView+LastIndexPath.swift"; sourceTree = "<group>"; };
+		04D79C37203BC9DF002B2D2B /* UIColor+Grade.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIColor+Grade.swift"; sourceTree = "<group>"; };
+		04D79C38203BC9DF002B2D2B /* UIFont+Styles.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIFont+Styles.swift"; sourceTree = "<group>"; };
+		04D79C46203BCA61002B2D2B /* ImageCache.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageCache.swift; sourceTree = "<group>"; };
+		04D79C48203BCA6F002B2D2B /* GenericCache.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GenericCache.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -73,6 +101,9 @@
 			children = (
 				04D79C16203BC950002B2D2B /* CWCore.h */,
 				04D79C17203BC950002B2D2B /* Info.plist */,
+				04D79C46203BCA61002B2D2B /* ImageCache.swift */,
+				04D79C48203BCA6F002B2D2B /* GenericCache.swift */,
+				04D79C45203BC9F2002B2D2B /* Extensions */,
 			);
 			path = CWCore;
 			sourceTree = "<group>";
@@ -84,6 +115,41 @@
 				04D79C23203BC950002B2D2B /* Info.plist */,
 			);
 			path = CWCoreTests;
+			sourceTree = "<group>";
+		};
+		04D79C45203BC9F2002B2D2B /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				04D79C4B203BCACE002B2D2B /* Foundation */,
+				04D79C4A203BCAC6002B2D2B /* UIKit */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		04D79C4A203BCAC6002B2D2B /* UIKit */ = {
+			isa = PBXGroup;
+			children = (
+				04D79C36203BC9DF002B2D2B /* UICollectionView+LastIndexPath.swift */,
+				04D79C34203BC9DF002B2D2B /* UIColor+Alpha.swift */,
+				04D79C37203BC9DF002B2D2B /* UIColor+Grade.swift */,
+				04D79C38203BC9DF002B2D2B /* UIFont+Styles.swift */,
+				04D79C2D203BC9DF002B2D2B /* UIImageView+URL.swift */,
+				04D79C2F203BC9DF002B2D2B /* UINavigationController+Direction.swift */,
+				04D79C2E203BC9DF002B2D2B /* UIView+Extensions.swift */,
+				04D79C31203BC9DF002B2D2B /* UIViewController+Keyboard.swift */,
+				04D79C35203BC9DF002B2D2B /* UIViewController+Navigation.swift */,
+			);
+			path = UIKit;
+			sourceTree = "<group>";
+		};
+		04D79C4B203BCACE002B2D2B /* Foundation */ = {
+			isa = PBXGroup;
+			children = (
+				04D79C32203BC9DF002B2D2B /* Collection+Random.swift */,
+				04D79C33203BC9DF002B2D2B /* NSAttributedString+Kerning.swift */,
+				04D79C30203BC9DF002B2D2B /* String+Localize.swift */,
+			);
+			path = Foundation;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -196,6 +262,20 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				04D79C49203BCA6F002B2D2B /* GenericCache.swift in Sources */,
+				04D79C3D203BC9E0002B2D2B /* UIViewController+Keyboard.swift in Sources */,
+				04D79C47203BCA61002B2D2B /* ImageCache.swift in Sources */,
+				04D79C3A203BC9E0002B2D2B /* UIView+Extensions.swift in Sources */,
+				04D79C44203BC9E0002B2D2B /* UIFont+Styles.swift in Sources */,
+				04D79C3C203BC9E0002B2D2B /* String+Localize.swift in Sources */,
+				04D79C41203BC9E0002B2D2B /* UIViewController+Navigation.swift in Sources */,
+				04D79C42203BC9E0002B2D2B /* UICollectionView+LastIndexPath.swift in Sources */,
+				04D79C3B203BC9E0002B2D2B /* UINavigationController+Direction.swift in Sources */,
+				04D79C40203BC9E0002B2D2B /* UIColor+Alpha.swift in Sources */,
+				04D79C43203BC9E0002B2D2B /* UIColor+Grade.swift in Sources */,
+				04D79C3F203BC9E0002B2D2B /* NSAttributedString+Kerning.swift in Sources */,
+				04D79C3E203BC9E0002B2D2B /* Collection+Random.swift in Sources */,
+				04D79C39203BC9E0002B2D2B /* UIImageView+URL.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -376,6 +456,7 @@
 		04D79C2B203BC950002B2D2B /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = TGW6PA8S8E;
 				INFOPLIST_FILE = CWCoreTests/Info.plist;
@@ -390,6 +471,7 @@
 		04D79C2C203BC950002B2D2B /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = TGW6PA8S8E;
 				INFOPLIST_FILE = CWCoreTests/Info.plist;
