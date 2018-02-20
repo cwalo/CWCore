@@ -24,6 +24,7 @@
 		04D79C44203BC9E0002B2D2B /* UIFont+Styles.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04D79C38203BC9DF002B2D2B /* UIFont+Styles.swift */; };
 		04D79C47203BCA61002B2D2B /* ImageCache.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04D79C46203BCA61002B2D2B /* ImageCache.swift */; };
 		04D79C49203BCA6F002B2D2B /* GenericCache.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04D79C48203BCA6F002B2D2B /* GenericCache.swift */; };
+		04D79C4D203BCC46002B2D2B /* Styles.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04D79C4C203BCC45002B2D2B /* Styles.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -57,6 +58,7 @@
 		04D79C38203BC9DF002B2D2B /* UIFont+Styles.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIFont+Styles.swift"; sourceTree = "<group>"; };
 		04D79C46203BCA61002B2D2B /* ImageCache.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageCache.swift; sourceTree = "<group>"; };
 		04D79C48203BCA6F002B2D2B /* GenericCache.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GenericCache.swift; sourceTree = "<group>"; };
+		04D79C4C203BCC45002B2D2B /* Styles.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Styles.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -103,6 +105,7 @@
 				04D79C17203BC950002B2D2B /* Info.plist */,
 				04D79C46203BCA61002B2D2B /* ImageCache.swift */,
 				04D79C48203BCA6F002B2D2B /* GenericCache.swift */,
+				04D79C4C203BCC45002B2D2B /* Styles.swift */,
 				04D79C45203BC9F2002B2D2B /* Extensions */,
 			);
 			path = CWCore;
@@ -268,6 +271,7 @@
 				04D79C3A203BC9E0002B2D2B /* UIView+Extensions.swift in Sources */,
 				04D79C44203BC9E0002B2D2B /* UIFont+Styles.swift in Sources */,
 				04D79C3C203BC9E0002B2D2B /* String+Localize.swift in Sources */,
+				04D79C4D203BCC46002B2D2B /* Styles.swift in Sources */,
 				04D79C41203BC9E0002B2D2B /* UIViewController+Navigation.swift in Sources */,
 				04D79C42203BC9E0002B2D2B /* UICollectionView+LastIndexPath.swift in Sources */,
 				04D79C3B203BC9E0002B2D2B /* UINavigationController+Direction.swift in Sources */,
